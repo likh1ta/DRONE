@@ -1,0 +1,37 @@
+{
+    "system": {
+        "id": "drone_01",
+        "version": "1.0.0"
+    },
+    "hardware": {
+        "pixhawk": {
+            "port": "/dev/ttyACM0",
+            "baudrate": 57600
+        },
+        "arduino": {
+            "port": "/dev/ttyUSB0",
+            "baudrate": 9600
+        },
+        "camera": {
+            "id": 0,
+            "resolution": [1920, 1080]
+        },
+        "lidar": {
+            "port": "/dev/ttyUSB1",
+            "baudrate": 115200
+        }
+    },
+    "autonomy": {
+        "altitude": 10,
+        "speed": 5,
+        "search_area": {
+            "lat": 0.0,
+            "lon": 0.0,
+            "radius": 100
+        }
+    },
+    "logging": {
+        "level": "INFO",
+        "file": "drone.log"
+    }
+}
