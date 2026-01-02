@@ -1,0 +1,6 @@
+2025-11-24 13:40:51,211 - INFO - Initializing Disaster Drone System...
+2025-11-24 13:40:51,216 - INFO - Moving to waypoint: (0, 0)
+2025-11-24 13:40:52,217 - INFO - Moving to waypoint: (10, 0)
+2025-11-24 13:40:53,219 - INFO - Moving to waypoint: (10, 10)
+2025-11-24 13:40:54,220 - INFO - Moving to waypoint: (0, 10)
+2025-11-24 13:40:55,221 - INFO - Mission completed.
